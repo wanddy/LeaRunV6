@@ -1,0 +1,350 @@
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll.config
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Web.Infrastructure.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\MySql.Data.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Oracle.DataAccess.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\ICSharpCode.SharpZipLib.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXmlFormats.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.csprojResolveAssemblyReference.cache
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll.config
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Web.Infrastructure.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\MySql.Data.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Oracle.DataAccess.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\ICSharpCode.SharpZipLib.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXmlFormats.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Web.Http.resources.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.csprojResolveAssemblyReference.cache
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll.config
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Web.Infrastructure.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\MySql.Data.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Oracle.DataAccess.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\ICSharpCode.SharpZipLib.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXmlFormats.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Web.Http.resources.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.csprojResolveAssemblyReference.cache
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.csprojResolveAssemblyReference.cache
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\obj\Debug\LeaRun.SOA.SSO.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll.config
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.SOA.SSO.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Web.Infrastructure.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Mvc.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\MySql.Data.Entity.EF6.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Razor.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.WebPages.Razor.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.WebPages.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\MySql.Data.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Oracle.DataAccess.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.WebPages.Deployment.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\ICSharpCode.SharpZipLib.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXmlFormats.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Busines.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Code.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Entity.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Mapping.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.Factory.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Cache.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.EF.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Log.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WebControl.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\EntityFramework.SqlServer.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Net.Http.Formatting.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Web.Http.WebHost.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.IService.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.WeChat.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Offices.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.Repository.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Application.Service.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Extension.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.SignalR.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Data.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.Ioc.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\log4net.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Newtonsoft.Json.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\LeaRun.Util.FlowWork.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OOXML.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.AspNet.SignalR.Client.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\System.Data.SQLite.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.Unity.Configuration.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.pdb
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\Microsoft.Practices.ServiceLocation.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\NPOI.OpenXml4Net.xml
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\LeaRunV6\trunk\LeaRun.SOA\LeaRun.SOA.SSO\bin\zh-Hans\System.Web.Http.resources.dll

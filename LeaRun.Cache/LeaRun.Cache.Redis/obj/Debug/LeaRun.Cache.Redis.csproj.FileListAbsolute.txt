@@ -1,0 +1,56 @@
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Interfaces.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.csprojResolveAssemblyReference.cache
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Interfaces.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.csprojResolveAssemblyReference.cache
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Interfaces.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.csprojResolveAssemblyReference.cache
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.pdb
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.Redis.pdb
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Interfaces.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\LeaRun.Cache.pdb
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Common.xml
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Redis.xml
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\bin\Debug\ServiceStack.Text.xml
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.csprojResolveAssemblyReference.cache
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.dll
+F:\LeaRunV6\trunk\LeaRun.Cache\LeaRun.Cache.Redis\obj\Debug\LeaRun.Cache.Redis.pdb

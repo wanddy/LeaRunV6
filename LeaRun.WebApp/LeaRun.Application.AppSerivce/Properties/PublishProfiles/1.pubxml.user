@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Learn\C#LeaRun6.1\code\LeaRun.Framework V6.1\PrecompiledWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/11/2016 17:25:13</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>01/11/2016 17:25:13</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>12/24/2015 19:43:24</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.AppSerivce.dll">
+      <publishTime>05/11/2016 17:33:56</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.Busines.dll">
+      <publishTime>05/11/2016 17:33:55</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.Cache.dll">
+      <publishTime>05/11/2016 17:33:55</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.Code.dll">
+      <publishTime>05/11/2016 17:33:53</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.Entity.dll">
+      <publishTime>05/11/2016 17:33:53</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.IService.dll">
+      <publishTime>05/11/2016 17:33:54</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.Mapping.dll">
+      <publishTime>05/11/2016 17:33:54</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Application.Service.dll">
+      <publishTime>05/11/2016 17:33:54</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Cache.dll">
+      <publishTime>05/11/2016 17:33:51</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Cache.Factory.dll">
+      <publishTime>05/11/2016 17:33:52</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Data.dll">
+      <publishTime>05/11/2016 17:33:52</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Data.EF.dll">
+      <publishTime>05/11/2016 17:33:53</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Data.Repository.dll">
+      <publishTime>05/11/2016 17:33:53</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.dll">
+      <publishTime>05/11/2016 17:33:52</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.Extension.dll">
+      <publishTime>05/11/2016 17:33:51</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.FlowWork.dll">
+      <publishTime>05/11/2016 17:33:52</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.Ioc.dll">
+      <publishTime>05/11/2016 17:33:51</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.Offices.dll">
+      <publishTime>05/11/2016 17:33:51</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.WebControl.dll">
+      <publishTime>05/11/2016 17:33:52</publishTime>
+    </File>
+    <File Include="bin/LeaRun.Util.WeChat.dll">
+      <publishTime>05/11/2016 17:33:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>04/19/2016 14:41:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>04/19/2016 14:41:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>04/19/2016 14:41:38</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>04/19/2016 14:41:40</publishTime>
+    </File>
+    <File Include="bin/Nancy.dll">
+      <publishTime>04/18/2016 11:25:19</publishTime>
+    </File>
+    <File Include="bin/Nancy.Hosting.Aspnet.dll">
+      <publishTime>04/19/2016 14:41:38</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/25/2015 14:35:06</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>12/24/2015 19:43:24</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>12/24/2015 19:43:24</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>12/24/2015 19:43:24</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>12/24/2015 19:43:24</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>04/19/2016 18:04:08</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>03/24/2016 11:09:52</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/10/2016 09:30:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/11/2016 17:33:56</publishTime>
+    </File>
+    <File Include="XmlConfig/database.config">
+      <publishTime>05/10/2016 09:24:01</publishTime>
+    </File>
+    <File Include="XmlConfig/ioc.config">
+      <publishTime>05/10/2016 09:24:01</publishTime>
+    </File>
+    <File Include="XmlConfig/log4net.config">
+      <publishTime>05/10/2016 09:24:01</publishTime>
+    </File>
+    <File Include="XmlConfig/redis.config">
+      <publishTime>05/10/2016 09:24:01</publishTime>
+    </File>
+    <File Include="XmlConfig/system.config">
+      <publishTime>05/10/2016 09:24:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

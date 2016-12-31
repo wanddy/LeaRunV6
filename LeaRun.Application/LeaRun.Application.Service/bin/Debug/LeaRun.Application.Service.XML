@@ -1,0 +1,3081 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LeaRun.Application.Service</name>
+    </assembly>
+    <members>
+        <member name="T:LeaRun.Application.Service.AccountService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2016.05.11 16:23
+            描 述：注册账户
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.AccountService.CheckLogin(System.String,System.String)">
+            <summary>
+            登录验证
+            </summary>
+            <param name="mobileCode">用户名</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AccountService.GetSecurityCode(System.String)">
+            <summary>
+            获取验证码
+            </summary>
+            <param name="mobileCode">手机号码</param>
+            <returns>返回6位数验证码</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AccountService.Register(LeaRun.Application.Entity.AccountEntity)">
+            <summary>
+            注册账户
+            </summary>
+            <param name="accountEntity">实体对象</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.AccountService.LoginLimit(System.String,System.String,System.String,System.String)">
+            <summary>
+            登录限制
+            </summary>
+            <param name="platform">平台（苹果、安卓、PC浏览器）</param>
+            <param name="account">账户</param>
+            <param name="IPAddress">IP地址</param>
+            <param name="iPAddressName">IP所在城市</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.AuthorizeManage.AuthorizeService`1">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：刘晓雷
+            日 期：2016.03.29 22:35
+            描 述：授权认证
+            </summary>
+        </member>
+        <member name="T:LeaRun.Application.Service.AuthorizeManage.AuthorizeService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.5 22:35
+            描 述：授权认证
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetModuleList(System.String)">
+            <summary>
+            获取授权功能
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetModuleButtonList(System.String)">
+            <summary>
+            获取授权功能按钮
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetModuleColumnList(System.String)">
+            <summary>
+            获取授权功能视图
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetUrlList(System.String)">
+            <summary>
+            获取授权功能Url、操作Url
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetUserRelationList(System.String)">
+            <summary>
+            获取关联用户关系
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetDataAuthorUserId(LeaRun.Application.Code.Operator,System.Boolean)">
+            <summary>
+            获得权限范围用户ID
+            </summary>
+            <param name="operators">当前登陆用户信息</param>
+            <param name="isWrite">可写入</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.AuthorizeService.GetDataAuthor(LeaRun.Application.Code.Operator,System.Boolean)">
+            <summary>
+            获得可读数据权限范围SQL
+            </summary>
+            <param name="operators">当前登陆用户信息</param>
+            <param name="isWrite">可写入</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.AuthorizeManage.ModuleFormInstanceService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.04.14 09:16
+            描 述：系统表单实例
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormInstanceService.GetEntityByObjectId(System.String)">
+            <summary>
+            获取一个实体类
+            </summary>
+            <param name="keyValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormInstanceService.SaveEntity(System.String,LeaRun.Application.Entity.AuthorizeManage.ModuleFormInstanceEntity)">
+            <summary>
+            保存一个实体
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.AuthorizeManage.ModuleFormService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.04.14 09:16
+            描 述：系统表单
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取分页数据(管理页面调用)
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormService.GetEntity(System.String)">
+            <summary>
+            获取一个实体类
+            </summary>
+            <param name="keyValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormService.GetEntityByModuleId(System.String)">
+            <summary>
+            通过模块Id获取系统表单
+            </summary>
+            <param name="moduleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormService.IsExistModuleId(System.String,System.String)">
+            <summary>
+            判断模块是否已经有系统表单
+            </summary>
+            <param name="keyValue"></param>
+            <param name="moduleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormService.SaveEntity(System.String,LeaRun.Application.Entity.AuthorizeManage.ModuleFormEntity)">
+            <summary>
+            保存一个实体
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.AuthorizeManage.ModuleFormService.VirtualDelete(System.String)">
+            <summary>
+            虚拟删除一个实体
+            </summary>
+            <param name="keyValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.CashBalanceService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-04-28 16:48
+            描 述：现金余额
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CashBalanceService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CashBalanceService.AddBalance(LeaRun.Data.Repository.IRepository,LeaRun.Application.Entity.CustomerManage.CashBalanceEntity)">
+            <summary>
+            添加收支余额
+            </summary>
+            <param name="db"></param>
+            <param name="cashBalanceEntity"></param>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.ChanceService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-03-12 10:50
+            描 述：商机信息
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns>返回分页列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.ExistFullName(System.String,System.String)">
+            <summary>
+            商机名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.ChanceEntity)">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.Invalid(System.String)">
+            <summary>
+            商机作废
+            </summary>
+            <param name="keyValue">主键值</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ChanceService.ToCustomer(System.String)">
+            <summary>
+            商机转换客户
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.ExpensesService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-04-20 11:23
+            描 述：费用支出
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ExpensesService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns>返回分页列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ExpensesService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ExpensesService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ExpensesService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ExpensesService.SaveForm(LeaRun.Application.Entity.CustomerManage.ExpensesEntity)">
+            <summary>
+            保存表单（新增）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.InvoiceService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：超级管理员
+            日 期：2016-04-01 14:33
+            描 述：开票信息
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.InvoiceService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns>返回分页列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.InvoiceService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.InvoiceService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.InvoiceService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.InvoiceService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.InvoiceEntity)">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.ReceivableService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-04-06 17:24
+            描 述：应收账款
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ReceivableService.GetPaymentPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取收款单列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns>返回分页列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ReceivableService.GetPaymentRecord(System.String)">
+            <summary>
+            获取收款记录列表
+            </summary>
+            <param name="orderId">订单主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ReceivableService.SaveForm(LeaRun.Application.Entity.CustomerManage.ReceivableEntity)">
+            <summary>
+            保存表单（新增）
+            </summary>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.TrailRecordService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-03-21 16:10
+            描 述：跟进记录
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.TrailRecordService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.TrailRecordService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.TrailRecordService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.TrailRecordService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.TrailRecordEntity)">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.CustomerContactService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-03-19 14:25
+            描 述：客户联系人
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerContactService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerContactService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerContactService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerContactService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.CustomerContactEntity)">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.CustomerService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-03-14 09:47
+            描 述：客户信息
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.GetList">
+            <summary>
+            获取列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns>返回分页列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.ExistFullName(System.String,System.String)">
+            <summary>
+            客户名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.CustomerEntity)">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.CustomerService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.CustomerEntity,System.String)">
+            <summary>
+            保存表单
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+            <param name="moduleId">模块</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.OrderEntryService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-03-16 13:54
+            描 述：订单明细
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.OrderEntryService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="orderId">订单主键</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.OrderService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-03-16 13:54
+            描 述：订单管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.OrderService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns>返回分页列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.OrderService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.OrderService.GetPrevOrNextEntity(System.String,System.Int32)">
+            <summary>
+            获取前单、后单 数据
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="type">类型（1-前单；2-后单）</param>
+            <returns>返回实体</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.OrderService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.OrderService.SaveForm(System.String,LeaRun.Application.Entity.CustomerManage.OrderEntity,System.Collections.Generic.List{LeaRun.Application.Entity.CustomerManage.OrderEntryEntity})">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="orderEntity">实体对象</param>
+            <param name="orderEntryList">明细实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.CustomerManage.ReceivableReportService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-04-19 17:40
+            描 述：应收账款报表
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.CustomerManage.ReceivableReportService.GetList(System.String)">
+            <summary>
+            获取收款列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFDelegateRecordService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.01.14 11:02
+            描 述：工作流委托记录操作类（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRecordService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String,System.Int32,System.String)">
+            <summary>
+            获取分页数据(type 1：委托记录，其他：被委托记录)
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <param name="type"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRecordService.SaveEntity(System.String,LeaRun.Application.Entity.FlowManage.WFDelegateRecordEntity)">
+            <summary>
+            保存实体数据
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFDelegateRuleService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.01.14 11:02
+            描 述：工作流委托规则表操作类（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            获取委托规则分页数据（不写委托人获取全部）
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="queryJson">查询条件</param>
+            <param name="userId">委托人</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.GetSchemeInfoList(System.String)">
+            <summary>
+            获取流程模板信息列表数据
+            </summary>
+            <param name="ruleId">委托规则Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.GetEntityBySchemeInfoId(System.String,System.String[])">
+            <summary>
+            根据模板信息Id获取委托规则实体
+            </summary>
+            <param name="shcemeInfoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.GetEntity(System.String)">
+            <summary>
+            获取委托规则实体对象
+            </summary>
+            <param name="keyValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.SaveDelegateRule(System.String,LeaRun.Application.Entity.FlowManage.WFDelegateRuleEntity,System.String[])">
+            <summary>
+            保存委托规则
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.DeleteRule(System.String)">
+            <summary>
+            删除委托规则
+            </summary>
+            <param name="keyValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFDelegateRuleService.UpdateRuleEnable(System.String,System.Int32)">
+            <summary>
+            使能委托规则
+            </summary>
+            <param name="keyValue"></param>
+            <param name="enableMark"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFProcessInstanceService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.03.18 15:54
+            描 述：工作流实例表操作
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取流程监控数据（用于流程监控）
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            获取流程实例分页数据
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="queryJson">查询条件</param>
+            <param name="type">3草稿</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.GetToMeBeforePageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取登录者需要处理的流程
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.GetToMeAfterPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取登录者已经处理的流程
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.GetEntity(System.String)">
+            <summary>
+            获取实例进程信息实体
+            </summary>
+            <param name="keyVlaue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.SaveProcess(System.String,LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,LeaRun.Application.Entity.FlowManage.WFProcessSchemeEntity,LeaRun.Application.Entity.FlowManage.WFProcessOperationHistoryEntity)">
+            <summary>
+            存储工作流实例进程(编辑草稿用)
+            </summary>
+            <param name="processInstanceEntity"></param>
+            <param name="processSchemeEntity"></param>
+            <param name="wfOperationHistoryEntity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.SaveProcess(LeaRun.Util.FlowWork.WF_RuntimeModel,LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,LeaRun.Application.Entity.FlowManage.WFProcessSchemeEntity,LeaRun.Application.Entity.FlowManage.WFProcessOperationHistoryEntity,LeaRun.Application.Entity.FlowManage.WFProcessTransitionHistoryEntity,System.Collections.Generic.List{LeaRun.Application.Entity.FlowManage.WFDelegateRecordEntity})">
+            <summary>
+            存储工作流实例进程(创建实例进程)
+            </summary>
+            <param name="wfRuntimeModel"></param>
+            <param name="processInstanceEntity"></param>
+            <param name="processSchemeEntity"></param>
+            <param name="processOperationHistoryEntity"></param>
+            <param name="delegateRecordEntity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.SaveProcess(LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,LeaRun.Application.Entity.FlowManage.WFProcessSchemeEntity,LeaRun.Application.Entity.FlowManage.WFProcessOperationHistoryEntity,System.Collections.Generic.List{LeaRun.Application.Entity.FlowManage.WFDelegateRecordEntity},LeaRun.Application.Entity.FlowManage.WFProcessTransitionHistoryEntity)">
+            <summary>
+            存储工作流实例进程（审核驳回重新提交）
+            </summary>
+            <param name="processInstanceEntity"></param>
+            <param name="processSchemeEntity"></param>
+            <param name="processOperationHistoryEntity"></param>
+            <param name="processTransitionHistoryEntity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.SaveProcess(System.String,System.String,LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,LeaRun.Application.Entity.FlowManage.WFProcessSchemeEntity,LeaRun.Application.Entity.FlowManage.WFProcessOperationHistoryEntity,System.Collections.Generic.List{LeaRun.Application.Entity.FlowManage.WFDelegateRecordEntity},LeaRun.Application.Entity.FlowManage.WFProcessTransitionHistoryEntity)">
+            <summary>
+             更新流程实例 审核节点用
+            </summary>
+            <param name="sql"></param>
+            <param name="dbbaseId"></param>
+            <param name="processInstanceEntity"></param>
+            <param name="processSchemeEntity"></param>
+            <param name="processOperationHistoryEntity"></param>
+            <param name="delegateRecordEntityList"></param>
+            <param name="processTransitionHistoryEntity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.SaveProcess(LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity)">
+            <summary>
+            保存工作流进程实例
+            </summary>
+            <param name="processInstanceEntity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.DeleteProcess(System.String)">
+            <summary>
+            删除工作流实例进程(删除草稿使用)
+            </summary>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.OperateVirtualProcess(System.String,System.Int32)">
+            <summary>
+            虚拟操作实例
+            </summary>
+            <param name="keyValue"></param>
+            <param name="state">0暂停,1启用,2取消（召回）</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessInstanceService.DesignateProcess(System.String,System.String)">
+            <summary>
+            流程指派
+            </summary>
+            <param name="processId"></param>
+            <param name="makeLists"></param>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFProcessOperationHistoryService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.03.18 15:54
+            描 述：工作流实例操作记录表操作（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessOperationHistoryService.SaveEntity(System.String,LeaRun.Application.Entity.FlowManage.WFProcessOperationHistoryEntity)">
+            <summary>
+            保存或更新实体对象
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFProcessSchemeService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.03.18 15:54
+            描 述：工作流实例模板内容表操作（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessSchemeService.GetEntity(System.String)">
+            <summary>
+            获取实体对象
+            </summary>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessSchemeService.SaveEntity(System.String,LeaRun.Application.Entity.FlowManage.WFProcessSchemeEntity)">
+            <summary>
+            保存实体数据
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFProcessTransitionHistoryService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.03.18 15:54
+            描 述：工作流实例节点转化记录操作（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessTransitionHistoryService.GetEntity(System.String,System.String)">
+            <summary>
+            获取流转实体
+            </summary>
+            <param name="processId">流程实例ID</param>
+            <param name="toNodeId">流转到的节点Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFProcessTransitionHistoryService.SaveEntity(System.String,LeaRun.Application.Entity.FlowManage.WFProcessTransitionHistoryEntity)">
+            <summary>
+            保存实例
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFRuntimeService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.04.12 15:54
+            描 述：工作流运行实例处理方法类
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.CreateInstance(System.Guid,System.String,LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,System.String)">
+            <summary>
+            创建一个实例
+            </summary>
+            <param name="processId">进程GUID</param>
+            <param name="schemeInfoId">模板信息ID</param>
+            <param name="wfLevel"></param>
+            <param name="code">进程编号</param>
+            <param name="customName">自定义名称</param>
+            <param name="description">备注</param>
+            <param name="frmData">表单数据信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.CreateInstance(LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,System.String)">
+            <summary>
+            创建一个实例(草稿创建)
+            </summary>
+            <param name="processId"></param>
+            <param name="code"></param>
+            <param name="customName"></param>
+            <param name="description"></param>
+            <param name="frmData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.EditionInstance(System.String,System.String,System.String)">
+            <summary>
+            编辑表单再次提交(驳回后处理)
+            </summary>
+            <param name="processId"></param>
+            <param name="description"></param>
+            <param name="frmData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.CreateRoughdraft(System.Guid,System.String,LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,System.String)">
+            <summary>
+            创建一个草稿
+            </summary>
+            <param name="processId"></param>
+            <param name="schemeInfoId"></param>
+            <param name="wfLevel"></param>
+            <param name="code"></param>
+            <param name="customName"></param>
+            <param name="description"></param>
+            <param name="frmData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.EditionRoughdraft(LeaRun.Application.Entity.FlowManage.WFProcessInstanceEntity,System.String)">
+            <summary>
+            创建一个草稿
+            </summary>
+            <param name="wfProcessInstanceEntity"></param>
+            <param name="frmData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.NodeVerification(System.String,System.Boolean,System.String)">
+            <summary>
+            节点审核
+            </summary>
+            <param name="processId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.NodeReject(System.String,System.String,System.String)">
+            <summary>
+            驳回
+            </summary>
+            <param name="processId"></param>
+            <param name="nodeId"></param>
+            <param name="description"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.CallingBackProcess(System.String)">
+            <summary>
+            召回流程进程
+            </summary>
+            <param name="processId"></param>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.KillProcess(System.String)">
+            <summary>
+            终止一个实例(彻底删除)
+            </summary>
+            <param name="processId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.GetProcessSchemeContentByNodeId(System.String,System.String)">
+            <summary>
+            获取某个节点（审核人所能看到的提交表单的权限）
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.GetProcessSchemeContentByUserId(System.String,System.String)">
+            <summary>
+            获取某个节点（审核人所能看到的提交表单的权限）
+            </summary>
+            <param name="data"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.GetMakerList(LeaRun.Util.FlowWork.IWF_Runtime)">
+            <summary>
+            寻找该节点执行人
+            </summary>
+            <param name="wfruntime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.GetMakerList(System.Object,System.String)">
+            <summary>
+            寻找该节点执行人
+            </summary>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.ArrwyToString(System.Object,System.String)">
+            <summary>
+            将数组转化成逗号相隔的字串
+            </summary>
+            <param name="data"></param>
+            <param name="Str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.GetFrmData(System.String,System.String,System.String,System.String)">
+            <summary>
+            获取系统表单信息
+            </summary>
+            <param name="DataBaseId"></param>
+            <param name="tableName"></param>
+            <param name="tableFiled"></param>
+            <param name="processId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFRuntimeService.GetDelegateRecordList(System.String,System.String,System.String,System.String)">
+            <summary>
+            获取委托记录列表
+            </summary>
+            <param name="wfSchemeInfoId"></param>
+            <param name="code"></param>
+            <param name="customName"></param>
+            <param name="makerList"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFSchemeInfoService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.02.23 10:02
+            描 述：工作流模板信息表操作（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeInfoService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取流程列表分页数据
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="queryJson">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeInfoService.GetList(System.String)">
+            <summary>
+            获取流程列表数据
+            </summary>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeInfoService.GetList">
+            <summary>
+            获取流程模板列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeInfoService.GetEntity(System.String)">
+            <summary>
+            设置流程
+            </summary>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeInfoService.GetAuthorizeEntityList(System.String)">
+            <summary>
+            获取权限列表数据
+            </summary>
+            <param name="schemeInfoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeInfoService.UpdateState(System.String,System.Int32)">
+            <summary>
+            更新流程模板状态（启用，停用）
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="status">状态 1:启用;0.停用</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFSchemeContentService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.03.04 16:58
+            描 述：工作流模板内容表操作（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeContentService.GetEntity(System.String,System.String)">
+            <summary>
+            获取对象
+            </summary>
+            <param name="wfSchemeInfoId">工作流模板信息表主键</param>
+            <param name="schemeVersion">模板版本号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeContentService.GetEntityList(System.String)">
+            <summary>
+            获取对象列表
+            </summary>
+            <param name="wfSchemeInfoId">工作流模板信息表Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeContentService.GetTableList(System.String)">
+            <summary>
+            获取对象列表（不包括模板内容）
+            </summary>
+            <param name="wfSchemeInfoId">工作流模板信息表Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFSchemeContentService.SaveEntity(LeaRun.Application.Entity.FlowManage.WFSchemeContentEntity,System.String)">
+            <summary>
+            保存对象
+            </summary>
+            <param name="entity">类</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.FlowManage.WFFrmMainService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2016.01.14 11:02
+            描 述：表单管理（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFFrmMainService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取表单列表分页数据
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="queryJson">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFFrmMainService.GetAllList">
+            <summary>
+            获取表单数据ALL(用于下拉框)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFFrmMainService.GetForm(System.String)">
+            <summary>
+            设置表单
+            </summary>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFFrmMainService.RemoveForm(System.String)">
+            <summary>
+            删除表单
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFFrmMainService.SaveForm(System.String,LeaRun.Application.Entity.FlowManage.WFFrmMainEntity)">
+            <summary>
+            保存表单
+            </summary>
+            <param name="entity">表单模板实体类</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.FlowManage.WFFrmMainService.UpdateState(System.String,System.Int32)">
+            <summary>
+            更新表单模板状态（启用，停用）
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="status">状态 1:启用;0.停用</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.ScheduleService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创 建：佘赐雄
+            日 期：2016-04-25 10:45
+            描 述：日程管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.ScheduleService.GetList(System.String)">
+            <summary>
+            获取列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns>返回列表</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.ScheduleService.GetEntity(System.String)">
+            <summary>
+            获取实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.ScheduleService.RemoveForm(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.ScheduleService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.ScheduleEntity)">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.FileFolderService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.15 10:56
+            描 述：文件夹
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.GetList(System.String)">
+            <summary>
+            文件夹列表
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.GetEntity(System.String)">
+            <summary>
+            文件夹实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.RestoreFile(System.String)">
+            <summary>
+            还原文件夹
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.RemoveForm(System.String)">
+            <summary>
+            删除文件夹
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.ThoroughRemoveForm(System.String)">
+            <summary>
+            彻底删除文件夹
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.FileFolderEntity)">
+            <summary>
+            保存文件夹表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="fileFolderEntity">文件夹实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileFolderService.ShareFolder(System.String,System.Int32)">
+            <summary>
+            共享文件夹
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="IsShare">是否共享：1-共享 0取消共享</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.FileInfoService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.15 10:56
+            描 述：文件信息
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetList(System.String,System.String)">
+            <summary>
+            所有文件（夹）列表
+            </summary>
+            <param name="folderId">文件夹Id</param>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetDocumentList(System.String)">
+            <summary>
+            文档列表
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetImageList(System.String)">
+            <summary>
+            图片列表
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetRecycledList(System.String)">
+            <summary>
+            回收站文件（夹）列表
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetMyShareList(System.String)">
+            <summary>
+            我的文件（夹）共享列表
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetOthersShareList(System.String)">
+            <summary>
+            他人文件（夹）共享列表
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.GetEntity(System.String)">
+            <summary>
+            文件实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.RestoreFile(System.String)">
+            <summary>
+            还原文件
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.RemoveForm(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.ThoroughRemoveForm(System.String)">
+            <summary>
+            彻底删除文件
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.FileInfoEntity)">
+            <summary>
+            保存文件表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="fileInfoEntity">文件信息实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.FileInfoService.ShareFile(System.String,System.Int32)">
+            <summary>
+            共享文件
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="IsShare">是否共享：1-共享 0取消共享</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.EmailCategoryService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.8 11:31
+            描 述：邮件分类
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailCategoryService.GetList(System.String)">
+            <summary>
+            分类列表
+            </summary>
+            <param name="UserId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailCategoryService.GetEntity(System.String)">
+            <summary>
+            分类实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailCategoryService.RemoveForm(System.String)">
+            <summary>
+            删除分类
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailCategoryService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.EmailCategoryEntity)">
+            <summary>
+            保存分类表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="emailCategoryEntity">分类实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.EmailContentService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.8 11:31
+            描 述：邮件内容
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetUnreadMail(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            未读邮件
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="userId">用户Id</param>
+            <param name="keyword">关键字</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetUnreadMailCount(System.String)">
+            <summary>
+            未读邮件数量
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetAsteriskMail(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            星标邮件
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="userId">用户Id</param>
+            <param name="keyword">关键字</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetAsteriskMailCount(System.String)">
+            <summary>
+            星标邮件数量
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetDraftMail(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            草稿箱
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="userId">用户Id</param>
+            <param name="keyword">关键字</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetDraftMailCount(System.String)">
+            <summary>
+            草稿箱数量
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetRecycleMail(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            回收箱
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="userId">用户Id</param>
+            <param name="keyword">关键字</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetRecycleMailCount(System.String)">
+            <summary>
+            回收箱数量
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetAddresseeMail(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            收件箱
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="userId">用户Id</param>
+            <param name="keyword">关键字</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetAddresseeMailCount(System.String)">
+            <summary>
+            收件箱数量
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetSentMail(LeaRun.Util.WebControl.Pagination,System.String,System.String)">
+            <summary>
+            已发送
+            </summary>
+            <param name="pagination">分页参数</param>
+            <param name="userId">用户Id</param>
+            <param name="keyword">关键字</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetSentMailCount(System.String)">
+            <summary>
+            已发送数量
+            </summary>
+            <param name="userId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetEntity(System.String)">
+            <summary>
+            邮件实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.GetAddresseeEntity(System.String)">
+            <summary>
+            收件邮件实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.RemoveDraftForm(System.String)">
+            <summary>
+            删除草稿
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.RemoveAddresseeForm(System.String)">
+            <summary>
+            删除未读、星标、收件
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.ThoroughRemoveAddresseeForm(System.String)">
+            <summary>
+            彻底删除未读、星标、收件
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.RemoveRecycleForm(System.String,System.Int32)">
+            <summary>
+            删除回收
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="Type">类型</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.RemoveSentForm(System.String)">
+            <summary>
+            删除已发
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.ThoroughRemoveSentForm(System.String)">
+            <summary>
+            彻底删除已发
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.EmailContentEntity,System.String[],System.String[],System.String[])">
+            <summary>
+            保存邮件表单（发送、存入草稿、草稿编辑）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="emailContentEntity">邮件实体</param>
+            <param name="addresssIds">收件人</param>
+            <param name="copysendIds">抄送人</param>
+            <param name="bccsendIds">密送人</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.ReadEmail(System.String,System.Int32)">
+            <summary>
+            设置邮件已读/未读
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="IsRead">是否已读：0-未读1-已读</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.EmailContentService.SteriskEmail(System.String,System.Int32)">
+            <summary>
+            设置邮件星标/取消星标
+            </summary>
+            <param name="keyValue">主键</param>
+            <param name="asterisk">星标：0-取消星标1-星标</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.NewsService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.7 16:40
+            描 述：新闻中心
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NewsService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            新闻列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NewsService.GetEntity(System.String)">
+            <summary>
+            新闻实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NewsService.RemoveForm(System.String)">
+            <summary>
+            删除新闻
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NewsService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.NewsEntity)">
+            <summary>
+            保存新闻表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="newsEntity">新闻实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.PublicInfoManage.NoticeService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.7 16:40
+            描 述：电子公告
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NoticeService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            公告列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NoticeService.GetEntity(System.String)">
+            <summary>
+            公告实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NoticeService.RemoveForm(System.String)">
+            <summary>
+            删除公告
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.PublicInfoManage.NoticeService.SaveForm(System.String,LeaRun.Application.Entity.PublicInfoManage.NewsEntity)">
+            <summary>
+            保存公告表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="newsEntity">公告实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.ReportManage.RptTempService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2016.1.14 14:27
+            描 述：报表模板管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.ReportManage.RptTempService.GetList(System.String)">
+            <summary>
+            报表模板列表
+            </summary>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.ReportManage.RptTempService.GetEntity(System.String)">
+            <summary>
+            报表模板实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.ReportManage.RptTempService.GetReportData(System.String)">
+            <summary>
+            获得报表数据
+            </summary>
+            <param name="reportId">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.ReportManage.RptTempService.RemoveForm(System.String)">
+            <summary>
+            删除报表模板
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.ReportManage.RptTempService.SaveForm(System.String,LeaRun.Application.Entity.ReportManage.RptTempEntity,LeaRun.Application.Entity.AuthorizeManage.ModuleEntity)">
+            <summary>
+            保存报表模板表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="rptTempEntity">报表实体</param>
+            <param name="moduleEntity">模块实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.LogService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2016.1.8 9:56
+            描 述：系统日志
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.LogService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            日志列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.LogService.GetEntity(System.String)">
+            <summary>
+            日志实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.LogService.RemoveLog(System.Int32,System.String)">
+            <summary>
+            清空日志
+            </summary>
+            <param name="categoryId">日志分类Id</param>
+            <param name="keepTime">保留时间段内</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.LogService.WriteLog(LeaRun.Application.Entity.SystemManage.LogEntity)">
+            <summary>
+            写日志
+            </summary>
+            <param name="logEntity">对象</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.CodeRuleService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.21 16:19
+            描 述：编号规则
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            规则列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.GetEntity(System.String)">
+            <summary>
+            规则实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.RemoveForm(System.String)">
+            <summary>
+            删除规则
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.SaveForm(System.String,LeaRun.Application.Entity.SystemManage.CodeRuleEntity)">
+            <summary>
+            保存规则表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="codeRuleEntity">规则实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.ExistEnCode(System.String,System.String)">
+            <summary>
+            规则编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.ExistFullName(System.String,System.String)">
+            <summary>
+            规则名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.GetBillCode(System.String,System.String,System.String)">
+            <summary>
+            获得指定模块或者编号的单据号
+            </summary>
+            <param name="userId">用户ID</param>
+            <param name="moduleId">模块ID</param>
+            <param name="enCode">模板编码</param>
+            <returns>单据号</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.SetBillCode(System.String,System.String,System.String,LeaRun.Data.Repository.IRepository)">
+            <summary>
+            获得指定模块或者编号的单据号（直接使用）
+            </summary>
+            <param name="userId">用户ID</param>
+            <param name="moduleId">模块ID</param>
+            <param name="enCode">模板编码</param>
+            <returns>单据号</returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.CodeRuleService.UseRuleSeed(System.String,System.String,System.String,LeaRun.Data.Repository.IRepository)">
+            <summary>
+            占用单据号
+            </summary>
+            <param name="userId">用户ID</param>
+            <param name="moduleId">模块ID</param>
+            <param name="enCode">模板编码</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.DataBaseBackupService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.25 11:02
+            描 述：数据库备份
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseBackupService.GetList(System.String,System.String)">
+            <summary>
+            库备份列表
+            </summary>
+            <param name="dataBaseLinkId">连接库Id</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseBackupService.GetPathList(System.String)">
+            <summary>
+            库备份文件路径列表
+            </summary>
+            <param name="databaseBackupId">计划Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseBackupService.GetEntity(System.String)">
+            <summary>
+            库备份实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseBackupService.RemoveForm(System.String)">
+            <summary>
+            删除库备份
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseBackupService.SaveForm(System.String,LeaRun.Application.Entity.SystemManage.DataBaseBackupEntity)">
+            <summary>
+            保存库备份表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="dataBaseBackupEntity">库备份实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.DataBaseLinkService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.18 11:02
+            描 述：数据库连接管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseLinkService.GetList">
+            <summary>
+            库连接列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseLinkService.GetEntity(System.String)">
+            <summary>
+            库连接实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseLinkService.RemoveForm(System.String)">
+            <summary>
+            删除库连接
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseLinkService.SaveForm(System.String,LeaRun.Application.Entity.SystemManage.DataBaseLinkEntity)">
+            <summary>
+            保存库连接表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="databaseLinkEntity">库连接实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.DataBaseTableService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.18 11:02
+            描 述：数据库管理（支持：SqlServer）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseTableService.GetTableList(System.String,System.String)">
+            <summary>
+            数据表列表
+            </summary>
+            <param name="dataBaseLinkId">库连接Id</param>
+            <param name="tableName">表明</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseTableService.GetTableFiledList(System.String,System.String)">
+            <summary>
+            数据表字段列表
+            </summary>
+            <param name="dataBaseLinkId">库连接Id</param>
+            <param name="tableName">表明</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseTableService.GetTableDataList(System.String,System.String,System.String,System.String,System.String,LeaRun.Util.WebControl.Pagination)">
+            <summary>
+            数据库表数据列表
+            </summary>
+            <param name="dataBaseLinkId">库连接</param>
+            <param name="tableName">表明</param>
+            <param name="switchWhere">条件</param>
+            <param name="logic">逻辑</param>
+            <param name="keyword">关键字</param>
+            <param name="pagination">分页参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataBaseTableService.SaveForm(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{LeaRun.Application.Entity.SystemManage.DataBaseTableFieldEntity})">
+            <summary>
+            保存数据库表表单（新增、修改）
+            </summary>
+            <param name="dataBaseLinkId">库连接Id</param>
+            <param name="tableName">表名称</param>
+            <param name="tableDescription">表说明</param>
+            <param name="fieldList">字段列表</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.AreaService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.12 16:40
+            描 述：区域管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.AreaService.GetList">
+            <summary>
+            区域列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.AreaService.GetList(System.String,System.String)">
+            <summary>
+            区域列表
+            </summary>
+            <param name="parentId">节点Id</param>
+            <param name="keyword">关键字查询</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.AreaService.GetEntity(System.String)">
+            <summary>
+            区域实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.AreaService.RemoveForm(System.String)">
+            <summary>
+            删除区域
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.AreaService.SaveForm(System.String,LeaRun.Application.Entity.SystemManage.AreaEntity)">
+            <summary>
+            保存区域表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="{{">区域实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.DataItemDetailService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.17 9:56
+            描 述：数据字典明细
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.GetList(System.String)">
+            <summary>
+            明细列表
+            </summary>
+            <param name="itemId">分类Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.GetEntity(System.String)">
+            <summary>
+            明细实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.GetDataItemList">
+            <summary>
+            获取数据字典列表（给绑定下拉框提供的）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.ExistItemValue(System.String,System.String,System.String)">
+            <summary>
+            项目值不能重复
+            </summary>
+            <param name="itemValue">项目值</param>
+            <param name="keyValue">主键</param>
+            <param name="itemId">分类Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.ExistItemName(System.String,System.String,System.String)">
+            <summary>
+            项目名不能重复
+            </summary>
+            <param name="itemName">项目名</param>
+            <param name="keyValue">主键</param>
+            <param name="itemId">分类Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.RemoveForm(System.String)">
+            <summary>
+            删除明细
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemDetailService.SaveForm(System.String,LeaRun.Application.Entity.SystemManage.DataItemDetailEntity)">
+            <summary>
+            保存明细表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="dataItemDetailEntity">明细实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.SystemManage.DataItemService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.17 9:56
+            描 述：数据字典分类
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.GetList">
+            <summary>
+            分类列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.GetEntity(System.String)">
+            <summary>
+            分类实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.GetEntityByCode(System.String)">
+            <summary>
+            根据分类编号获取实体对象
+            </summary>
+            <param name="ItemCode">编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.ExistItemCode(System.String,System.String)">
+            <summary>
+            分类编号不能重复
+            </summary>
+            <param name="itemCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.ExistItemName(System.String,System.String)">
+            <summary>
+            分类名称不能重复
+            </summary>
+            <param name="itemName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.RemoveForm(System.String)">
+            <summary>
+            删除分类
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.SystemManage.DataItemService.SaveForm(System.String,LeaRun.Application.Entity.SystemManage.DataItemEntity)">
+            <summary>
+            保存分类表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="dataItemEntity">分类实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.MessageManage.IMContentService">
+            <summary>
+            版 本 V6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2015.11.26 19:39
+            描 述：即时通信群组管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMContentService.GetList(LeaRun.Util.WebControl.Pagination,System.String,System.String,System.String)">
+            <summary>
+            获取消息列表（单对单）
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMContentService.GetListByGroupId(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            获取消息列表（群组）
+            </summary>
+            <param name="pagination"></param>
+            <param name="queryJson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMContentService.GetReadList(System.String)">
+            <summary>
+            获取消息数量列表
+            </summary>
+            <param name="queryJson">readStatus,userId</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMContentService.GetReadAllNum(System.String,System.String)">
+            <summary>
+            获取某用户某种消息的总数
+            </summary>
+            <param name="userId"></param>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMContentService.Add(LeaRun.Application.Entity.MessageManage.IMContentEntity,System.Data.DataTable)">
+            <summary>
+            增加一条消息内容
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMContentService.Update(System.String,System.String,System.String)">
+            <summary>
+            更新消息状态
+            </summary>
+            <param name="userId"></param>
+            <param name="sendId"></param>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.MessageManage.IMGroupService">
+            <summary>
+            版 本 V6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2015.11.26 19:39
+            描 述：即时通信群组管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMGroupService.GetList(System.String)">
+            <summary>
+            获取群组列表（即时通信）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMGroupService.GetUserIdList(System.String)">
+            <summary>
+            获取群组里面的用户Id
+            </summary>
+            <param name="groupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMGroupService.Save(System.String,LeaRun.Application.Entity.MessageManage.IMGroupEntity,System.Collections.Generic.List{System.String})">
+            <summary>
+            保存群组信息
+            </summary>
+            <param name="keyValue"></param>
+            <param name="entity"></param>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMGroupService.RemoveUserId(System.String)">
+            <summary>
+            删除群组里的一个联系人
+            </summary>
+            <param name="UserGroupId"></param>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMGroupService.AddUserId(LeaRun.Application.Entity.MessageManage.IMUserGroupEntity)">
+            <summary>
+            群里增加一个用户
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="T:LeaRun.Application.Service.MessageManage.IMUserService">
+            <summary>
+            版 本 V6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：陈彬彬
+            日 期：2015.11.26 11:14
+            描 述：即时通信用户管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.MessageManage.IMUserService.GetList(System.String)">
+            <summary>
+            获取联系人列表（即时通信）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.FilterIPService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.20 13:32
+            描 述：过滤IP
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterIPService.GetList(System.String,System.String)">
+            <summary>
+            过滤IP列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <param name="visitType">访问:0-拒绝，1-允许</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterIPService.GetAllList(System.String,System.Int32)">
+            <summary>
+            过滤IP列表
+            </summary>
+            <param name="objectId">对象Id，用逗号分隔</param>
+            <param name="visitType">访问:0-拒绝，1-允许</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterIPService.GetEntity(System.String)">
+            <summary>
+            过滤IP实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterIPService.RemoveForm(System.String)">
+            <summary>
+            删除过滤IP
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterIPService.SaveForm(System.String,LeaRun.Application.Entity.AuthorizeManage.FilterIPEntity)">
+            <summary>
+            保存过滤IP表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="filterIPEntity">过滤IP实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.FilterTimeService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.20 13:32
+            描 述：过滤时段
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterTimeService.GetList(System.String,System.String)">
+            <summary>
+            过滤时段列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <param name="visitType">访问:0-拒绝，1-允许</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterTimeService.GetList(System.String)">
+            <summary>
+            过滤时段列表
+            </summary>
+            <param name="objectId">对象Id,用逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterTimeService.GetEntity(System.String)">
+            <summary>
+            过滤时段实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterTimeService.RemoveForm(System.String)">
+            <summary>
+            删除过滤时段
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.FilterTimeService.SaveForm(System.String,LeaRun.Application.Entity.AuthorizeManage.FilterTimeEntity)">
+            <summary>
+            保存过滤时段表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="filterTimeEntity">过滤时段实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.ModuleButtonService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.08.01 14:00
+            描 述：系统按钮
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleButtonService.GetList">
+            <summary>
+            按钮列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleButtonService.GetList(System.String)">
+            <summary>
+            按钮列表
+            </summary>
+            <param name="moduleId">功能Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleButtonService.GetEntity(System.String)">
+            <summary>
+            按钮实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleButtonService.AddEntity(LeaRun.Application.Entity.AuthorizeManage.ModuleButtonEntity)">
+            <summary>
+            添加按钮
+            </summary>
+            <param name="moduleButtonEntity">按钮实体</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.ModuleColumnService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.10.29 15:13
+            描 述：系统视图
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleColumnService.GetList">
+            <summary>
+            视图列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleColumnService.GetList(System.String)">
+            <summary>
+            视图列表
+            </summary>
+            <param name="moduleId">功能Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleColumnService.GetEntity(System.String)">
+            <summary>
+            视图实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleColumnService.AddEntity(LeaRun.Application.Entity.AuthorizeManage.ModuleColumnEntity)">
+            <summary>
+            添加视图
+            </summary>
+            <param name="moduleButtonEntity">视图实体</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.ModuleService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.10.27 09:16
+            描 述：系统功能
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.GetSortCode">
+            <summary>
+            获取最大编号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.GetList">
+            <summary>
+            功能列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.GetEntity(System.String)">
+            <summary>
+            功能实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.ExistEnCode(System.String,System.String)">
+            <summary>
+            功能编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.ExistFullName(System.String,System.String)">
+            <summary>
+            功能名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.RemoveForm(System.String)">
+            <summary>
+            删除功能
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.ModuleService.SaveForm(System.String,LeaRun.Application.Entity.AuthorizeManage.ModuleEntity,System.Collections.Generic.List{LeaRun.Application.Entity.AuthorizeManage.ModuleButtonEntity},System.Collections.Generic.List{LeaRun.Application.Entity.AuthorizeManage.ModuleColumnEntity})">
+            <summary>
+            保存表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="moduleEntity">功能实体</param>
+            <param name="moduleButtonList">按钮实体列表</param>
+            <param name="moduleColumnList">视图实体列表</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.PermissionService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.5 22:35
+            描 述：权限配置管理（角色、岗位、职位、用户组、用户）
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.GetMemberList(System.String)">
+            <summary>
+            获取成员列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.GetObjectList(System.String)">
+            <summary>
+            获取对象列表
+            </summary>
+            <param name="UserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.GetModuleList(System.String)">
+            <summary>
+            获取功能列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.GetModuleButtonList(System.String)">
+            <summary>
+            获取按钮列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.GetModuleColumnList(System.String)">
+            <summary>
+            获取视图列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.GetAuthorizeDataList(System.String)">
+            <summary>
+            获取数据权限列表
+            </summary>
+            <param name="objectId">对象Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.SaveMember(LeaRun.Application.Code.AuthorizeTypeEnum,System.String,System.String[])">
+            <summary>
+            添加成员
+            </summary>
+            <param name="authorizeType">权限分类</param>
+            <param name="objectId">对象Id</param>
+            <param name="userIds">成员Id</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PermissionService.SaveAuthorize(LeaRun.Application.Code.AuthorizeTypeEnum,System.String,System.String[],System.String[],System.String[],System.Collections.Generic.IEnumerable{LeaRun.Application.Entity.AuthorizeManage.AuthorizeDataEntity})">
+            <summary>
+            添加授权
+            </summary>
+            <param name="authorizeType">权限分类</param>
+            <param name="objectId">对象Id</param>
+            <param name="moduleIds">功能Id</param>
+            <param name="moduleButtonIds">按钮Id</param>
+            <param name="moduleColumnIds">视图Id</param>
+            <param name="authorizeDataList">数据权限</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.DepartmentService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.02 14:27
+            描 述：部门管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.DepartmentService.GetList">
+            <summary>
+            部门列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.DepartmentService.GetEntity(System.String)">
+            <summary>
+            部门实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.DepartmentService.ExistEnCode(System.String,System.String)">
+            <summary>
+            部门编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.DepartmentService.ExistFullName(System.String,System.String)">
+            <summary>
+            部门名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.DepartmentService.RemoveForm(System.String)">
+            <summary>
+            删除部门
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.DepartmentService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.DepartmentEntity)">
+            <summary>
+            保存部门表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="departmentEntity">机构实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.OrganizeService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.02 14:27
+            描 述：机构管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.GetList">
+            <summary>
+            机构列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.GetEntity(System.String)">
+            <summary>
+            机构实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.ExistFullName(System.String,System.String)">
+            <summary>
+            公司名称不能重复
+            </summary>
+            <param name="organizeName">公司名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.ExistEnCode(System.String,System.String)">
+            <summary>
+            外文名称不能重复
+            </summary>
+            <param name="enCode">外文名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.ExistShortName(System.String,System.String)">
+            <summary>
+            中文名称不能重复
+            </summary>
+            <param name="shortName">中文名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.RemoveForm(System.String)">
+            <summary>
+            删除机构
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.OrganizeService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.OrganizeEntity)">
+            <summary>
+            保存机构表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="organizeEntity">机构实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.RoleService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.4 14:31
+            描 述：角色管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.GetList">
+            <summary>
+            角色列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            角色列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.GetAllList">
+            <summary>
+            角色列表all
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.GetEntity(System.String)">
+            <summary>
+            角色实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.ExistEnCode(System.String,System.String)">
+            <summary>
+            角色编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.ExistFullName(System.String,System.String)">
+            <summary>
+            角色名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.RemoveForm(System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.RoleService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.RoleEntity)">
+            <summary>
+            保存角色表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="roleEntity">角色实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.UserService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.03 10:58
+            描 述：用户管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.GetTable">
+            <summary>
+            用户列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.GetList">
+            <summary>
+            用户列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            用户列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.GetAllTable">
+            <summary>
+            用户列表（ALL）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.GetExportList">
+            <summary>
+            用户列表（导出Excel）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.GetEntity(System.String)">
+            <summary>
+            用户实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.CheckLogin(System.String)">
+            <summary>
+            登录验证
+            </summary>
+            <param name="username">用户名</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.ExistAccount(System.String,System.String)">
+            <summary>
+            账户不能重复
+            </summary>
+            <param name="account">账户值</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.RemoveForm(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.UserEntity)">
+            <summary>
+            保存用户表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="userEntity">用户实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.RevisePassword(System.String,System.String)">
+            <summary>
+            修改用户登录密码
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="Password">新密码（MD5 小写）</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.UpdateState(System.String,System.Int32)">
+            <summary>
+            修改用户状态
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="State">状态：1-启动；0-禁用</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserService.UpdateEntity(LeaRun.Application.Entity.BaseManage.UserEntity)">
+            <summary>
+            修改用户信息
+            </summary>
+            <param name="userEntity">实体对象</param>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.PostService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.4 14:31
+            描 述：岗位管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.GetList">
+            <summary>
+            岗位列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            岗位列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.GetAllList">
+            <summary>
+            岗位列表(ALL)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.GetEntity(System.String)">
+            <summary>
+            岗位实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.ExistEnCode(System.String,System.String)">
+            <summary>
+            岗位编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.ExistFullName(System.String,System.String)">
+            <summary>
+            岗位名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.RemoveForm(System.String)">
+            <summary>
+            删除岗位
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.PostService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.RoleEntity)">
+            <summary>
+            保存岗位表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="postEntity">岗位实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.JobService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.4 14:31
+            描 述：职位管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.GetList">
+            <summary>
+            职位列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            职位列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.GetEntity(System.String)">
+            <summary>
+            职位实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.ExistEnCode(System.String,System.String)">
+            <summary>
+            职位编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.ExistFullName(System.String,System.String)">
+            <summary>
+            职位名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.RemoveForm(System.String)">
+            <summary>
+            删除职位
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.JobService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.RoleEntity)">
+            <summary>
+            保存职位表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="jobEntity">职位实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.BaseManage.UserGroupService">
+            <summary>
+            版 本
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.11.4 14:31
+            描 述：用户组管理
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.GetList">
+            <summary>
+            用户组列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.GetPageList(LeaRun.Util.WebControl.Pagination,System.String)">
+            <summary>
+            用户组列表
+            </summary>
+            <param name="pagination">分页</param>
+            <param name="queryJson">查询参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.GetAllList">
+            <summary>
+            用户组列表(ALL)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.GetEntity(System.String)">
+            <summary>
+            用户组实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.ExistEnCode(System.String,System.String)">
+            <summary>
+            组编号不能重复
+            </summary>
+            <param name="enCode">编号</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.ExistFullName(System.String,System.String)">
+            <summary>
+            组名称不能重复
+            </summary>
+            <param name="fullName">名称</param>
+            <param name="keyValue">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.RemoveForm(System.String)">
+            <summary>
+            删除用户组
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.BaseManage.UserGroupService.SaveForm(System.String,LeaRun.Application.Entity.BaseManage.RoleEntity)">
+            <summary>
+            保存用户组表单（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="userGroupEntity">用户组实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.WeChatManage.WeChatAppService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.23 11:31
+            描 述：企业号应用
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatAppService.GetList">
+            <summary>
+            应用列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatAppService.GetEntity(System.String)">
+            <summary>
+            应用实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatAppService.RemoveForm(System.String)">
+            <summary>
+            删除应用
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatAppService.SaveForm(System.String,LeaRun.Application.Entity.WeChatManage.WeChatAppEntity)">
+            <summary>
+            应用（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="weChatAppEntity">应用实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.WeChatManage.WeChatOrganizeService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.23 11:31
+            描 述：企业号部门
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatOrganizeService.GetList">
+            <summary>
+            部门列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatOrganizeService.GetEntity(System.String)">
+            <summary>
+            部门实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatOrganizeService.RemoveForm(System.String)">
+            <summary>
+            删除部门
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatOrganizeService.SaveForm(System.String,LeaRun.Application.Entity.WeChatManage.WeChatDeptRelationEntity)">
+            <summary>
+            部门（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="weChatDeptRelationEntity">部门实体</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeaRun.Application.Service.WeChatManage.WeChatUserService">
+            <summary>
+            版 本 6.1
+            Copyright (c) 2013-2016 上海力软信息技术有限公司
+            创建人：佘赐雄
+            日 期：2015.12.23 11:31
+            描 述：企业号成员
+            </summary>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatUserService.GetList">
+            <summary>
+            成员列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatUserService.GetEntity(System.String)">
+            <summary>
+            成员实体
+            </summary>
+            <param name="keyValue">主键值</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatUserService.RemoveForm(System.String)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="keyValue">主键</param>
+        </member>
+        <member name="M:LeaRun.Application.Service.WeChatManage.WeChatUserService.SaveForm(System.String,LeaRun.Application.Entity.WeChatManage.WeChatUserRelationEntity)">
+            <summary>
+            成员（新增、修改）
+            </summary>
+            <param name="keyValue">主键值</param>
+            <param name="weChatUserRelationEntity">用户实体</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
