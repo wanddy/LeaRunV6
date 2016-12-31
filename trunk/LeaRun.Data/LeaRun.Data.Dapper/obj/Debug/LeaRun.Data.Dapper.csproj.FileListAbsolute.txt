@@ -1,0 +1,90 @@
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll.config
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\MySql.Data.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.Dapper.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Oracle.DataAccess.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.pdb
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.xml
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.csprojResolveAssemblyReference.cache
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.dll
+D:\Products\Product\A\6.14\V6.1(改版前)\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll.config
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\MySql.Data.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.Dapper.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Oracle.DataAccess.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.pdb
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.xml
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.csprojResolveAssemblyReference.cache
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.dll
+D:\LeaRun\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll.config
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\MySql.Data.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.Dapper.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Oracle.DataAccess.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.pdb
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.xml
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.csprojResolveAssemblyReference.cache
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.dll
+D:\lr\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.pdb
+C:\Users\Administrator\Desktop\敏捷开发框架\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\敏捷开发框架\V6.1\code\LeaRun.Framework V6.1\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll.config
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.Dapper.pdb
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\MySql.Data.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.Dapper.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\SQLinq.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Oracle.DataAccess.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.pdb
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Data.pdb
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Dapper.pdb
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\Newtonsoft.Json.xml
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\LeaRun.Util.Extension.pdb
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\bin\Debug\System.Data.SQLite.xml
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.csprojResolveAssemblyReference.cache
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.dll
+F:\LeaRunV6\trunk\LeaRun.Data\LeaRun.Data.Dapper\obj\Debug\LeaRun.Data.Dapper.pdb

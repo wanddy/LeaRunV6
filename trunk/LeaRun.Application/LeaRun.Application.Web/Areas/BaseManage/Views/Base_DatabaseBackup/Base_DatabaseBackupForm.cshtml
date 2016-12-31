@@ -1,0 +1,232 @@
+@{;
+    ViewBag.Title = "表单页面";
+    Layout = "~/Views/Shared/_OrderForm.cshtml";
+}
+<script>
+    var keyValue = request('keyValue');
+    $(function () {
+        InitialPage();
+        GetOrderEntryGrid();
+        initControl();
+    });
+    //初始化页面
+    function InitialPage() {;
+        //resize重设(表格、树形)宽高
+        $(window).resize(function (e) {
+            window.setTimeout(function () {
+                $('#gridTable').setGridWidth(($('.gridPanel').width()));
+                $('#gridTable').setGridHeight($(window).height() - 240.5);
+            }, 200);
+            e.stopPropagation();
+        });
+    }
+    //加载明细表
+    function GetOrderEntryGrid() {
+        var $grid = $('#gridTable');
+        $grid.jqGrid({
+            unwritten: false,
+            datatype: 'local',
+            height: $(window).height() - 240.5,
+            autowidth: true,
+            colModel: [
+{ label: '区域主键', name: 'AreaId', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '父级主键', name: 'ParentId', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '区域编码', name: 'AreaCode', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '区域名称', name: 'AreaName', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '快速查询', name: 'QuickQuery', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '简拼', name: 'SimpleSpelling', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '层次', name: 'Layer', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '排序码', name: 'SortCode', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '删除标记', name: 'DeleteMark', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '有效标志', name: 'EnabledMark', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '备注', name: 'Description', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '创建日期', name: 'CreateDate', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '创建用户主键', name: 'CreateUserId', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '创建用户', name: 'CreateUserName', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '修改日期', name: 'ModifyDate', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '修改用户主键', name: 'ModifyUserId', width: 80, align: '', sortable: false, resizable: false  },
+{ label: '修改用户', name: 'ModifyUserName', width: 80, align: '', sortable: false, resizable: false  },
+            ],
+            pager: false,
+            rownumbers: true,
+            shrinkToFit: false,
+            gridview: true,
+            footerrow: false,
+            gridComplete: function () {
+            }
+        });
+        //默认添加13行 空行
+        for (var i = 1; i < 13; i++) {
+            var rowdata = {
+AreaId: '<input name="AreaId" type="text" class="editable center" />',
+ParentId: '<input name="ParentId" type="text" class="editable center" />',
+AreaCode: '<input name="AreaCode" type="text" class="editable center" />',
+AreaName: '<input name="AreaName" type="text" class="editable center" />',
+QuickQuery: '<input name="QuickQuery" type="text" class="editable center" />',
+SimpleSpelling: '<input name="SimpleSpelling" type="text" class="editable center" />',
+Layer: '<input name="Layer" type="text" class="editable center" />',
+SortCode: '<input name="SortCode" type="text" class="editable center" />',
+DeleteMark: '<input name="DeleteMark" type="text" class="editable center" />',
+EnabledMark: '<input name="EnabledMark" type="text" class="editable center" />',
+Description: '<input name="Description" type="text" class="editable center" />',
+CreateDate: '<input name="CreateDate" type="text" class="editable center" />',
+CreateUserId: '<input name="CreateUserId" type="text" class="editable center" />',
+CreateUserName: '<input name="CreateUserName" type="text" class="editable center" />',
+ModifyDate: '<input name="ModifyDate" type="text" class="editable center" />',
+ModifyUserId: '<input name="ModifyUserId" type="text" class="editable center" />',
+ModifyUserName: '<input name="ModifyUserName" type="text" class="editable center" />',
+            }
+            $grid.jqGrid('addRowData', i, rowdata);
+        };
+    }
+    //初始化控件
+    function initControl() {
+        //获取表单
+        if (!!keyValue) {
+            $.SetForm({
+                url: "../../BaseManage/Base_DatabaseBackup/GetFormJson",
+                param: { keyValue: keyValue },
+                success: function (data) {
+                    $("#form1").SetWebControls(data.entity);
+                    //明细
+                    var childEntity = data.childEntity;
+                    $('#gridTable').find('[role=row]').each(function (i) {
+                        var row = childEntity[i - 1];
+                        if (row != undefined) {
+$(this).find('input[name="AreaId"]').val(row.AreaId);
+$(this).find('input[name="ParentId"]').val(row.ParentId);
+$(this).find('input[name="AreaCode"]').val(row.AreaCode);
+$(this).find('input[name="AreaName"]').val(row.AreaName);
+$(this).find('input[name="QuickQuery"]').val(row.QuickQuery);
+$(this).find('input[name="SimpleSpelling"]').val(row.SimpleSpelling);
+$(this).find('input[name="Layer"]').val(row.Layer);
+$(this).find('input[name="SortCode"]').val(row.SortCode);
+$(this).find('input[name="DeleteMark"]').val(row.DeleteMark);
+$(this).find('input[name="EnabledMark"]').val(row.EnabledMark);
+$(this).find('input[name="Description"]').val(row.Description);
+$(this).find('input[name="CreateDate"]').val(row.CreateDate);
+$(this).find('input[name="CreateUserId"]').val(row.CreateUserId);
+$(this).find('input[name="CreateUserName"]').val(row.CreateUserName);
+$(this).find('input[name="ModifyDate"]').val(row.ModifyDate);
+$(this).find('input[name="ModifyUserId"]').val(row.ModifyUserId);
+$(this).find('input[name="ModifyUserName"]').val(row.ModifyUserName);
+                        }
+                    });
+                }
+            })
+        }
+    }
+    //保存表单;
+    function AcceptClick() {
+        if (!$('#form1').Validform()) {
+            return false;
+        }
+        var postData = $("#form1").GetWebControls(keyValue);
+        var childEntryJson = [];
+        $('#gridTable').find('[role=row]').each(function (i) {
+        if (!!$(this).find('input[name="AreaId"]').val()) {
+            childEntryJson.push({
+AreaId: $(this).find('input[name="AreaId"]').val(),
+ParentId: $(this).find('input[name="ParentId"]').val(),
+AreaCode: $(this).find('input[name="AreaCode"]').val(),
+AreaName: $(this).find('input[name="AreaName"]').val(),
+QuickQuery: $(this).find('input[name="QuickQuery"]').val(),
+SimpleSpelling: $(this).find('input[name="SimpleSpelling"]').val(),
+Layer: $(this).find('input[name="Layer"]').val(),
+SortCode: $(this).find('input[name="SortCode"]').val(),
+DeleteMark: $(this).find('input[name="DeleteMark"]').val(),
+EnabledMark: $(this).find('input[name="EnabledMark"]').val(),
+Description: $(this).find('input[name="Description"]').val(),
+CreateDate: $(this).find('input[name="CreateDate"]').val(),
+CreateUserId: $(this).find('input[name="CreateUserId"]').val(),
+CreateUserName: $(this).find('input[name="CreateUserName"]').val(),
+ModifyDate: $(this).find('input[name="ModifyDate"]').val(),
+ModifyUserId: $(this).find('input[name="ModifyUserId"]').val(),
+ModifyUserName: $(this).find('input[name="ModifyUserName"]').val(),
+                 });
+            }
+        });
+        $.SaveForm({
+            url: "../../BaseManage/Base_DatabaseBackup/SaveForm?keyValue=" + keyValue,
+            param: { "strEntity": JSON.stringify(postData), "strChildEntitys": JSON.stringify(childEntryJson) },
+            loading: "正在保存数据...",
+            success: function () {
+                $.currentIframe().$("#gridTable").trigger("reloadGrid");
+            }
+        })
+    }
+</script>
+<div class="bills" >
+ <div style="height:190px;overflow-y:auto;margin:10px 10px;">
+    <table class="form" style="width: 100%;">
+        <tr>
+<th class="formTitle" style="width: 60px;">数据库备份Id<font face="宋体">*</font></th>
+<td class="formValue"><input id="DatabaseBackupId" type="text"  class="form-control" isvalid="yes" checkexpession="NotNull"></td>
+<th class="formTitle" style="width: 60px;">数据库连接主键</th>
+<td class="formValue"><input id="DatabaseLinkId" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">父级主键</th>
+<td class="formValue"><input id="ParentId" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">计划编号</th>
+<td class="formValue"><input id="EnCode" type="text"  class="form-control" ></td>
+</tr>
+<tr>
+<th class="formTitle" style="width: 60px;">计划名称</th>
+<td class="formValue"><input id="FullName" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">执行方式</th>
+<td class="formValue"><input id="ExecuteMode" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">执行时间</th>
+<td class="formValue"><input id="ExecuteTime" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">备份路径</th>
+<td class="formValue"><input id="BackupPath" type="text"  class="form-control" ></td>
+</tr>
+<tr>
+<th class="formTitle" style="width: 60px;">排序码</th>
+<td class="formValue"><input id="SortCode" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">删除标记</th>
+<td class="formValue"><input id="DeleteMark" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">有效标志</th>
+<td class="formValue"><input id="EnabledMark" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">备注</th>
+<td class="formValue"><input id="Description" type="text"  class="form-control" ></td>
+</tr>
+<tr>
+<th class="formTitle" style="width: 60px;">创建日期</th>
+<td class="formValue"><input id="CreateDate" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">创建用户主键</th>
+<td class="formValue"><input id="CreateUserId" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">创建用户</th>
+<td class="formValue"><input id="CreateUserName" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">修改日期</th>
+<td class="formValue"><input id="ModifyDate" type="text"  class="form-control" ></td>
+</tr>
+<tr>
+<th class="formTitle" style="width: 60px;">修改用户主键</th>
+<td class="formValue"><input id="ModifyUserId" type="text"  class="form-control" ></td>
+<th class="formTitle" style="width: 60px;">修改用户</th>
+<td class="formValue"><input id="ModifyUserName" type="text"  class="form-control" ></td>
+     </tr>
+    </table>
+ </div>
+ <div class="gridPanel" >
+     <table id="gridTable" ></table>
+ </div>
+</div>
+<style>
+    body {
+        margin:0px;
+    }
+    .bills {
+        overflow: hidden;
+        border-radius: 0px;
+        position: relative;
+        background: #FFFFFF;
+        border: 0px solid rgb(204, 204, 204);
+        box-shadow:none;
+        padding: 0px;
+    }
+    .ui-widget-content {
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+    }
+</style>
